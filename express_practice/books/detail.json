@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Onyii",
+        "password": "Onyii",
+        "level": 2,
+        "level_type": "admin"
+    },
+    {
+        "name": "Emmanuel",
+        "password": "emmanuel",
+        "level": 2,
+        "level_type": "admin"
+    },
+    {
+        "name": "kosi",
+        "password": "kosi",
+        "level": 2,
+        "level_type": "admin"
+    },
+    {
+        "name": "Shadow",
+        "password": "shadow",
+        "level": 1,
+        "level_type": "user"
+    }
+]

@@ -48,6 +48,7 @@ function postFunction(req, res) {
 	req.on('end', () => {
 		const itemsTOstring = Buffer.concat(items).toString();
 		const itemsToJson = JSON.parse(itemsTOstring);
+		console.log(itemsToJson);
 		fs.readFile(DBPATH, 'utf-8', (err, data) => {
 			if (err) {
 				res.write(404);
@@ -67,7 +68,7 @@ function postFunction(req, res) {
 					res.end();
 				}
 				res.write;
-				res.end(JSON.stringify(allabooks));
+ 				res.end(JSON.stringify(allabooks));
 			});
 		});
 	});
